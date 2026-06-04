@@ -1,0 +1,8 @@
+{
+  "name": "LiveStream 24/7",
+  "description": "A professional 24/7 live streaming dashboard with video upload and multi-stream management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
