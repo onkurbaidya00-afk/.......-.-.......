@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+"scripts": {
   "dev": "tsx server.ts",
-  "build": "vite build && esbuild server.ts --bundle --platform=node --format=esm --packages=external --sourcemap --outfile=dist/server.js",
+  "build": "build": "vite build && esbuild server.ts --bundle --platform=node --format=esm --packages=external --sourcemap --outfile=dist/server.js",
   "start": "node dist/server.js",
   "preview": "vite preview",
   "clean": "rm -rf dist"
-}
-  },
-  "dependencies": {
+},
+"dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
     "@types/fluent-ffmpeg": "^2.1.28",
